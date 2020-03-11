@@ -30,3 +30,9 @@ distribuer
 piocher
 calcul_des_points
 changer_une_lettre
+
+
+Classes :
+Modele 
+Vue
+Controleur
