@@ -4,7 +4,7 @@ Projet JAVA - Scrabble :
 
 Vue :
 
-Plateau 
+Plateau (15x15)
 Différents joueurs + leur jeu (jeu personnel visible, jeu des autres cachés)--------> NB DE JOUEURS ?
 Fenêtre de points ?
 Historique des mots joués + points obtenus
