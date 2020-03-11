@@ -1,5 +1,4 @@
 
 public class Modele {
-	//lalalalalalalala
-	//lalalalilililolololo
+	//C'est nul!
 }
