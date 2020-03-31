@@ -1,6 +1,6 @@
+import java.util.Observable;
 
-
-public class Modele {
+public class Modele extends Observable{
 
 	enum Etat {
 		EN_COURS, GAGNE, PERDU
