@@ -12,7 +12,6 @@ public class Plateau_de_jeu extends Canvas implements Observer{
 		this.setPreferredSize(new Dimension(640,360));
 		
 		m.addObserver(this);
-		//this.setLayout(new FlowLayout());
 	}
 	
 	public void paint(Graphics g) {
