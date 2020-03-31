@@ -5,6 +5,11 @@ import java.awt.event.WindowListener;
 
 public class Vue extends Frame implements WindowListener{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String[] args) {
 		new Vue();
 	}

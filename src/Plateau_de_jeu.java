@@ -5,6 +5,7 @@ import java.awt.Graphics;
 import java.util.Observable;
 import java.util.Observer;
 
+@SuppressWarnings({ "deprecation", "serial" })
 public class Plateau_de_jeu extends Canvas implements Observer{
 	
 	public Plateau_de_jeu(Modele m) {
