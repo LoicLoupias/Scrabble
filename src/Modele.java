@@ -1,5 +1,6 @@
 import java.util.Observable;
 
+@SuppressWarnings("deprecation")
 public class Modele extends Observable{
 
 	enum Etat {
