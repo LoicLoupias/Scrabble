@@ -1,4 +1,5 @@
 import java.awt.Canvas;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Graphics;
@@ -10,10 +11,9 @@ public class Plateau_de_jeu extends Canvas implements Observer{
 	
 	public Plateau_de_jeu(Modele m) {
 		super();
+		Color vert = new Color(0, 255, 100, 100);
 		this.setPreferredSize(new Dimension(640,360));
-		
-		m.addObserver(this);
-		//this.setLayout(new FlowLayout());
+		this.setBackground(vert);
 	}
 	
 	public void paint(Graphics g) {
