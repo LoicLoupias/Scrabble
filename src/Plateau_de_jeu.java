@@ -1,5 +1,6 @@
 import java.awt.Canvas;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.util.Observable;
 import java.util.Observer;
@@ -11,6 +12,7 @@ public class Plateau_de_jeu extends Canvas implements Observer{
 		this.setPreferredSize(new Dimension(640,360));
 		
 		m.addObserver(this);
+		//this.setLayout(new FlowLayout());
 	}
 	
 	public void paint(Graphics g) {
